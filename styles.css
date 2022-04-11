@@ -31,13 +31,51 @@ html{
 
 .nav-item h1{
     display:flex;
+    
 }
 
 
-.nav img{
-   width: 24px;
-   height: auto;
+.nav-item img{
+    width: 24px;
+    height: auto;
+}
 
+.nav div img{
+    width: 10px;
+    height: auto;
+}
+
+.headerlogoleft{
+    display: flex;
+    list-style-type: none;
+    padding-top: 1%;
+    padding-left: 25px;
+}
+
+.headerlogoimage{
+    display: flex;
+    list-style-type: none;
+    padding-top: .2%;
+}
+
+.headerlogoimage img{
+   
+    height: auto;
+}
+
+
+.headerlogoright{
+    display: flex;
+    list-style-type: none;
+    padding-top: 1%;
+    padding-right: 25px;
+}
+
+
+.nav form img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
 
 
