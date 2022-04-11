@@ -7,19 +7,30 @@
 }
 
 html{
-    margin: 10%;
-    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    
     font-size: 62.5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+body{
+    background-color: white;
+    border: 90%;
+    padding-left: 10%;
 }
 
 .nav{
     display: flex;
     text-decoration: none;
-    position: sticky;
-    z-index: 999;
-    left: auto;
+    position: fixed;
+    top: 0;
+    
     font-size: 20px;
+    background-color: white;
+    width: 100%;
+    
 }
 
 .nav-item{
@@ -44,10 +55,7 @@ html{
     height: auto;
 }
 
-.nav div img{
-    width: 10px;
-    height: auto;
-}
+
 
 .headerlogoleft{
     display: flex;
@@ -85,18 +93,18 @@ html{
 }
 
 .potteryhands{
-    
-    position: relative;
+    position:static;
 }
 
 .potteryhands img{
-    background-size: 100% 100%;
+    margin-top: 10%;
+    width: 100%;
 
 }
 
 .firsttext{
     color: white;
-    position: absolute;
+    position: relative;
     top: 17px;
     left: 50px;
 }
@@ -104,13 +112,17 @@ html{
 .secondtext{
     color: white;
 
-    position: absolute;
+    position: relative;
     bottom: 20px;
     left: 10px;
 }
 
-.about{
+.about__section{
     font-size: 20px;
+}
+
+.about{
+    font-size: 45px;
 }
 
 .vase__dame img{
@@ -147,3 +159,20 @@ html{
     max-width: 398px;
     max-height: 398px;
 }
+
+.learn__more{
+    color: #bf7631;
+    padding-right: 155px;
+}
+
+.add__cart{
+    background-color: #bf7631;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 15px;
+    padding: 8px;
+    
+}
+
+
