@@ -10,3 +10,23 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.nav{
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav-item h1{
+    display:flex;
+    justify-content: space-between;
+}
