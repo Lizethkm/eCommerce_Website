@@ -14,12 +14,15 @@ html{
 .nav{
     display: flex;
     text-decoration: none;
+    position: sticky;
+    z-index: 999;
 }
 
 .nav-item{
     padding: 1rem;
     list-style-type: none;
     text-decoration: none;
+
 }
 
 .nav a{
@@ -28,5 +31,13 @@ html{
 
 .nav-item h1{
     display:flex;
-    justify-content: space-between;
 }
+
+
+.nav img{
+   width: 24px;
+   height: auto;
+
+}
+
+
