@@ -212,10 +212,50 @@ main{
     font-size: 45px;
 }
 
+.email{
+    font-size: 30px;
+}
+
+.line__one{
+    width: 800px;
+    height: 70px;
+    border: 1px solid black;
+    background: transparent;    
+}
+
+.line__two{
+    width: 800px;
+    height: 250px;
+    border: 1px solid black;
+    background: transparent;  
+    margin-bottom: 30px;  
+}
+
+.message{
+    font-size: 30px;
+}
+
+.send{
+    background-color: #bf7631;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 10%;
+    margin-left: 750px;
+}
+
 .footer{
     background-color: #bf7631;
     width: 100%;
     border-left: 100%;
+    margin-top: 30px;
+}
+
+.closing__container{
+    display:block;
+
 }
 
 
