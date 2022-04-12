@@ -9,7 +9,6 @@
 html{
     margin-left: 2%;
     margin-right: 2%;
-    
     font-size: 62.5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
@@ -18,15 +17,19 @@ html{
 body{
     background-color: white;
     border: 90%;
-    padding-left: 10%;
+    
+}
+
+main{
+    padding-left: 220px;
 }
 
 .nav{
     display: flex;
-    text-decoration: none;
+
     position: fixed;
     top: 0;
-    
+    padding-left: 205px;
     font-size: 20px;
     background-color: white;
     width: 100%;
@@ -61,7 +64,7 @@ body{
     display: flex;
     list-style-type: none;
     padding-top: .2%;
-    padding-left: 25px;
+    padding-left: 130px;
     font-size: 30px;
 }
 
@@ -81,7 +84,7 @@ body{
     display: flex;
     list-style-type: none;
     padding-top: .2%;
-    padding-right: 25px;
+    padding-right: 280px;
     font-size: 30px;
 }
 
@@ -117,11 +120,19 @@ body{
     left: 10px;
 }
 
-.about__section{
+.horizontal__line{
+    background-color: black;
+    width: 50%;
+    height: 5px;
+    margin-bottom: 1%;
+}
+
+
+.about{
     font-size: 20px;
 }
 
-.about{
+.about__us{
     font-size: 45px;
 }
 
@@ -138,6 +149,9 @@ body{
     max-height: 808;
 }
 
+.our__products{
+    font-size: 45px; 
+}
 
 
 
@@ -173,6 +187,16 @@ body{
     font-size: 15px;
     padding: 8px;
     
+}
+
+.contact__us{
+    font-size: 45px;
+}
+
+.footer{
+    background-color: #bf7631;
+    width: 100%;
+    border-left: 100%;
 }
 
 
